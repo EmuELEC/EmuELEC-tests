@@ -8,6 +8,18 @@ For stable releases visit https://github.com/EmuELEC/EmuELEC
 
 ## CHANGELOG
 
+### Jun 28 2020
+
+This test includes many new features some of them that will require a bit of setting up if you are upgrading. The biggest change  is that the getcores.sh file that was responsible for showing what emulators was used for what platform is no longer in use, this means that emuelec.conf and emuoptions.conf from earlier versions will no longer will compatible (well only the core/emulator part) so if you previously had set some games to run on certain emulators this needs to be redone. 
+
+It is always suggested to do a new install for tests releases and this is required before you report a bug/issue. 
+
+* New ES grouping by manufacturer, if you press B on the main screen of ES you will now get a group selection that will quick jump you to that manufacturer and all of its platforms.
+* Added netplay to ES, although I tested it as much as I could it was a hit and miss, but I assume this is just how it works 
+* Fixed retro-achievements (cheevos)
+* Bumped PPSSPPSDL to 1.10
+* Many small fixes are also included.
+
 ### Jun 11 2020
 
 * OdroidGoAdvance: Add support for V1.1 with extra buttons and WiFi module, buttons might have changed a bit, taking suggestions on how to best set them up!
