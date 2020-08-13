@@ -9,6 +9,26 @@ For support: join us at discord: https://discord.gg/cbgtJTu
 
 ## CHANGELOG
 
+### Aug 13 2020
+
+**3.8-TEST-08132020**
+
+* Fix ports show error even on gracious exit 
+* SDLPoP: Fix settings not being  saved
+* Mupen64plus-nx: Use Gles3 for OdroidGoAdvance fixes #260
+* emuelec-utils: Unify some small scripts for easy management
+* Remove some unused cores for space
+---beetle-lynx
+---crocods
+---dosbox-x (still available on aarch64)
+---easyrpg
+---xow
+---libretro-bash-launcher
+They can be brought back if demand exists
+* re-add ssv6xxx-aml: fixes #261 (hopefully) 
+* Bumped emulators to latest git
+* Bumped Retroarch
+
 ### Jul 13 2020
 
 * advmame: Another attempt at auto config joysticks that should work on 
