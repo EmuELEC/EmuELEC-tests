@@ -9,14 +9,18 @@ For support: join us at discord: https://discord.gg/cbgtJTu
 
 ## CHANGELOG
 
-### Aug 13 2020
+### Aug 29 2020
 
-**3.8-TEST-08132020**
+**
 
 * Fix ports show error even on gracious exit 
 * SDLPoP: Fix settings not being  saved
 * Mupen64plus-nx: Use Gles3 for OdroidGoAdvance fixes #260
 * emuelec-utils: Unify some small scripts for easy management
+* Bios check will now be performed AFTER and ONLY if a game crashes
+* OdroidGoAdvance: Added vertical mode for some cores (mostly arcade cores)
+* Added a timezone selection to make it easier to set your current time
+* S922x: Disabled small cores for a little performance boost
 * Remove some unused cores for space
 ---beetle-lynx
 ---crocods
@@ -26,8 +30,10 @@ For support: join us at discord: https://discord.gg/cbgtJTu
 ---libretro-bash-launcher
 They can be brought back if demand exists
 * re-add ssv6xxx-aml: fixes #261 (hopefully) 
-* Bumped emulators to latest git
 * Bumped Retroarch
+* Many other small under the hood fixes
+
+Happy retrogaming! 
 
 ### Jul 13 2020
 
