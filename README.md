@@ -9,9 +9,23 @@ For support: join us at discord: https://discord.gg/cbgtJTu
 
 ## CHANGELOG
 
-### Aug 29 2020
+### Sep 11
 
-**
+* Add DOSBox scan script (#292) - Easier way to add DOSBox games (untested)
+* Use GCC optim -O3 system-wide - Squeeze a bit more performance on some cases 
+* OdroidGoAdvance: use internal terminal to display error  - Uses proper rotation and error message will properly close!
+* Emulationstation: bump to 4416716 
+* S922x/A311D: Use a service to handle small cores - Fixes the reboot issue
+* Add pcenginecd to bios check
+* Add .mdf for Sega Saturn (#288)
+* Odroid Go Advance: Enable rs97-commander-sdl2 (not yet properly implemented)
+* VLC: bump to 3.0.11.1
+* Fix MSX2 platform for scrapping
+* Retroarch: Added some default core settings
+* Amlogic-ng: Goodbye libhybris! - Use proper GLES headers, this fixes some gfx errors on some cores, like Mupen64
+
+
+### Aug 29 2020
 
 * Fix ports show error even on gracious exit 
 * SDLPoP: Fix settings not being  saved
