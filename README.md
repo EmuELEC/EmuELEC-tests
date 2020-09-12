@@ -9,7 +9,7 @@ For support: join us at discord: https://discord.gg/cbgtJTu
 
 ## CHANGELOG
 
-### Sep 11
+### Sep 11 2020
 
 * Add DOSBox scan script (#292) - Easier way to add DOSBox games (untested)
 * Use GCC optim -O3 system-wide - Squeeze a bit more performance on some cases 
