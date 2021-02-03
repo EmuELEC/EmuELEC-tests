@@ -9,6 +9,24 @@ For support: join us at discord: https://discord.gg/cbgtJTu
 
 ## CHANGELOG
 
+### v4.0-TEST-02022021
+
+Just a small release fixing some big bugs from last release
+
+* Fixed ES slow downs when scrolling and changing settings
+* Fixed gamepad not closing error/message window
+* Fixed Pico-8 on OGS
+* Fixed hotkeys not working on OGA
+* Fixed ROMS on external HDD might not mount on boot
+* Fixed snapshot manager (read important note)
+
+A bug that was causing ES to lag on scrolling was fixed, but there has been a change on how ROM settings are saved, if you previously saved emuoptions.conf in a backup, you need to merge it with emuelec.conf. 
+
+After setting the gamepad in ES it will be automatically be added to the gamecontrollerdb.txt file making them work on all SDL2 programs that support it, including PPSSPPSDL.
+
+Important note: To properly support the new snapshot (savestate) manager, save states are now saved/loaded from /storage/roms/savestates/[system]  (example: /storage/roms/savestates/nes/) 
+
+
 ### Sep 11 2020
 
 * Add DOSBox scan script (#292) - Easier way to add DOSBox games (untested)
