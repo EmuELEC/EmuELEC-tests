@@ -9,6 +9,50 @@ For support: join us at discord: https://discord.gg/cbgtJTu
 
 ## CHANGELOG
 
+### 4.1-TEST-02242021
+
+General:
+ 
+* Emulationstation: While in a game list, pressing X will move to a random game, holding X will mark it as favorite (thanks to @lethal-guitar)
+* Bump PPSSPPSDL to v1.11
+* Bump Duckstation to abb7631
+* Pico-8: Allow saving favorite carts, include binary in backup
+* Update Sonic 1 and 2 so that they work with multiple gamepads
+* Bump most emulators and cores to newest git hash (check commits for specifics)
+
+Additions: 
+
+* Added Chocolate-Doom
+* Added SuperTux and SuperTuxKart to ports
+* Added Imagemagick (mainly for screenshot manipulation from CLI)
+
+Fixes: 
+
+* Removed unused scripts, and fixed many small issues with scripts
+* Fixed many script that were causing hangups or other issues
+* Fixed gamecontrollerdb.sh it will now replace the UUID from the one in the db, this fixes weird controllers that use the same UUID as others (but are not the same)
+* Fixed an issue with unicode characters not displaying correctly on the EEROMS partition (CN, JP, etc)
+* Fix SonicCD Gamepad for the OGS
+* Fix Pico-8 disappearing splore file
+* Fix Scummvm game scan
+* Fix brightness not restored after reboot on OGA/S, thanks to @miwasp, fixes issue #470
+* Fixed issue with OGA/S OC not beeing applied correctly (this does not solve the random lockups on some devices)
+* Fix backup/restore issues
+* Fixed Retroach video recording
+
+# IMPORTANT!
+
+This version includes a big change on how binaries and scripts are stored, basically to deal with the issue of people not reading how to properly update 
+and since I am getting tired of answering the same question over and over again, lets just move all binaries and scripts to RO /usr/bin, this will force 
+update all of these and make updating much simpler.
+
+If you use custom scripts /emuelec/bin and /emuelec/lib are still in the path so you will have to deal with it accordingly. 
+
+All configurations regarding emuelec will still be handled in /emuelec/config
+
+**Note that this is probably not final, I still need to do a lot of testing, but keep that in mind if you want to update**
+
+
 ### 4.1-TEST-02182021
 
 * Emulationstation: While in a game list, pressing X will move to a random game, holding X will mark it as favorite (thanks to @lethal-guitar)
