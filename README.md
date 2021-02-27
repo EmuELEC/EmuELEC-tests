@@ -9,7 +9,7 @@ For support: join us at discord: https://discord.gg/cbgtJTu
 
 ## CHANGELOG
 
-### 4.1-TEST-02242021
+### 4.1-TEST-02262021
 
 General:
  
@@ -19,12 +19,14 @@ General:
 * Pico-8: Allow saving favorite carts, include binary in backup
 * Update Sonic 1 and 2 so that they work with multiple gamepads
 * Bump most emulators and cores to newest git hash (check commits for specifics)
+* Bump Crystal theme which now includes a new panel (boxart)
 
 Additions: 
 
 * Added Chocolate-Doom
 * Added SuperTux and SuperTuxKart to ports
 * Added Imagemagick (mainly for screenshot manipulation from CLI)
+* Added logos to the ports (Thanks to Dim!)
 
 Fixes: 
 
@@ -39,6 +41,7 @@ Fixes:
 * Fixed issue with OGA/S OC not beeing applied correctly (this does not solve the random lockups on some devices)
 * Fix backup/restore issues
 * Fixed Retroach video recording
+* Fixed Eduke not running when having lots or ROMS in ES, by enabling swap (much testing needed!)
 
 # IMPORTANT!
 
