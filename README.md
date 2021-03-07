@@ -9,6 +9,27 @@ For support: join us at discord: https://discord.gg/cbgtJTu
 
 ## CHANGELOG
 
+
+### 4.1-TEST-03072021
+
+General:
+ 
+* Enable bezels on OGS, not fully tested yet
+* Bump Genesis-plus-gx and Genesis-plus-gx-wide to support FM music
+
+Additions: 
+
+* Added vertical aspect ratio option to OGA/S
+* Added gptokeyb to enable video controls on all devices with SDL support!
+* Replace jslisten with gptokeyb to kill emulators
+* Added easyrpg to es_systems.cfg
+
+Fixes: 
+
+* Fixed an issue with ES not playing .ogg music files in BGM
+* Fixed some errors messages were not wrapped and could not be read
+
+
 ### 4.1-TEST-02262021
 
 General:
