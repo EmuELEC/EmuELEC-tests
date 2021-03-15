@@ -12,6 +12,7 @@ For support: join us at discord: https://discord.gg/cbgtJTu
 ### 4.1-TEST-03142021
 General:  
 * Use DinguxFileManager as default on all platforms
+* Bump Crystal theme which now includes a new panel (boxart), 16:9, 4:3 and CRT versions
 
 Additions:  
 * Added Ecwolf with support for mods
