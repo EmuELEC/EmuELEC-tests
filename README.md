@@ -9,6 +9,14 @@ For support: join us at discord: https://discord.gg/cbgtJTu
 
 ## CHANGELOG
 
+### 4.1-TEST-03142021
+General:  
+* Use DinguxFileManager as default on all platforms
+
+Additions:  
+* Added Ecwolf with support for mods
+* Added supermariowar to ports, on the first run a fake keyboard will be used, make sure you set your gamepad and restart the game, if you need to run the fake keyboard again delete /emuelec/configs/smw/nofakekeyb and run the game again.
+
 
 ### 4.1-TEST-03072021
 
