@@ -9,6 +9,24 @@ For support: join us at discord: https://discord.gg/cbgtJTu
 
 ## CHANGELOG
 
+# 4.1-TEST-03302021
+General:
+ 
+* Use gptokeyb as a fake keyboard for OpenBOR
+* Bump Retroarch to 1.9.1
+
+Additions: 
+
+* Added Chocolate-Doom with support for mods
+* Added Flycast 32bit as core option for Dreamcast/Atomiswave/Naomi
+* Added Amstrad GX4000
+
+Fixes: 
+
+* Fixed OpenBor would not work after playing one game
+* Fixed DevilutionX character voices were wrong
+* ARM32 interpreter is now symlinked so no need for patchelf
+* 
 ### 4.1-TEST-03142021
 General:  
 * Use DinguxFileManager as default on all platforms
