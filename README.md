@@ -9,6 +9,29 @@ For support: join us at discord: https://discord.gg/cbgtJTu
 
 ## CHANGELOG
 
+# 4.2-TEST-05142021
+
+A new forum has been open for emuelec: https://emuelec.org
+
+General: 
+
+* Add ee_fstype to set the EEROMS partitions to the desired file system, between FAT32 (default), EXT4, EXFAT and NTFS (read the warning about using NTFS). Instructions coming soon to Wiki/forum
+* Fix OGG background music
+* Update setres.sh and advmame.sh for resolution 1280x1024p60hz (PR #600)
+* Fix drastic game saves & save states erased when resetting scripts & binaries to default (PR #595) 
+* Add Potator a Watara Supervision emulator core (not tested)
+* gptokeyb bump and fix missing trigger actions
+* Crystal bump to latest
+* emuelec-emulationstation bump to latest
+
+Odroid Go Advance/Super & GameForce: 
+
+* Bump kernel to use latest Mali G31 blobs
+* Introduce RetroRun (not yet fully enabled)
+
+
+
+
 # 4.1-TEST-03302021
 General:
  
