@@ -5,13 +5,31 @@ While we do our best to test every change some changes might break your installa
 **DO NOT INSTALL IF YOU DO NOT FEEL COMFORTABLE DEALING WITH POTENTIAL BUGS**  
 For stable releases visit: https://github.com/EmuELEC/EmuELEC  
 For support: join us at discord: https://discord.gg/cbgtJTu
-
+A new forum has been open for emuelec: https://emuelec.org
 
 ## CHANGELOG
 
-# 4.2-TEST-05142021
+# 4.2-TEST-05272021
 
-A new forum has been open for emuelec: https://emuelec.org
+* bump Retroarch to v1.9.3
+* Switch Duckstation name to Swanstation
+* Rework 32bit core detection on emuelecRunEmu.sh
+* Yabasanshiro: Revert back to 7ae0de7 as it gives much better performance
+* Added freej2me Java games emulator, it accepts .jar files and they should go into /storage/roms/freej2me. Internet is required only on first run to download the Java JDK.
+* Update most cores and emulators to latest versions
+
+Amlogic-ng: 
+* Enable qca6174 drivers (Fixes issues #611)
+
+Odroid Go Advance/Super & GameForce: 
+
+* Introduce RetroRun, available for Flycast for the moment
+
+GameForce:
+* Move global hotkey to button 1 to avoid conflicting hotkeys in retroarch, 1+Dpad up/down for volume, 1+Dpad lef/right for brightness
+* Brightness was not correctly calculated on GameForce (PR #619)
+
+# 4.2-TEST-05142021
 
 General: 
 
