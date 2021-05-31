@@ -16,7 +16,7 @@ General
 * Bump RigelEnfgine to fix a bug
 
 Odroid Go Advance/Super & GameForce: 
-* Use gptokeyb for controlls on Solarus
+* Use gptokeyb for controls on Solarus
 * Fix reboot while charging
 * Fix retrorun reversed analogs
 
