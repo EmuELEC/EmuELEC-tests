@@ -9,6 +9,17 @@ A new forum has been open for emuelec: https://emuelec.org
 
 ## CHANGELOG
 
+# 4.2-TEST-05312021
+
+General
+* Fix latest test missing libs
+* Bump RigelEnfgine to fix a bug
+
+Odroid Go Advance/Super & GameForce: 
+* Use gptokeyb for controlls on Solarus
+* Fix reboot while charging
+* Fix retrorun reversed analogs
+
 # 4.2-TEST-05272021
 
 * bump Retroarch to v1.9.3
