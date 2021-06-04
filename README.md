@@ -9,6 +9,19 @@ A new forum has been open for emuelec: https://emuelec.org
 
 ## CHANGELOG
 
+
+# 4.2-TEST-06032021
+
+General
+* Hypseus replaced by Hypseus-singe
+
+Odroid Go Advance/Super & GameForce: 
+* Update U-boot and Kernel
+
+GameForce:
+* Fix hypseus controls (#622)
+
+
 # 4.2-TEST-05312021
 
 General
