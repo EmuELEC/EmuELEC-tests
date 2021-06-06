@@ -9,6 +9,23 @@ A new forum has been open for emuelec: https://emuelec.org
 
 ## CHANGELOG
 
+# 4.2-TEST-06062021
+
+General: 
+* Bump Retroarch to 1.9.4
+* Add auto gamepad configuration for Hypseus
+* Add Non-Commercial Duckstation core (untested)
+* always update es_systems.cfg on system update
+
+Odroid Go Advance/Super & GameForce: 
+
+* Convert screenshots from pbm to png
+
+GameForce:
+* Update U-boot and Kernel
+* Fix Opentyrian
+* Fix Advancemame
+
 
 # 4.2-TEST-06032021
 
