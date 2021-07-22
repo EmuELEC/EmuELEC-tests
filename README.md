@@ -9,6 +9,16 @@ A new forum has been open for emuelec: https://emuelec.org
 
 ## CHANGELOG
 
+# 4.3-TEST-07222021
+General:
+
+* Add Flycast Stand Alone 
+* Add Alternate version of Mupen64plus-nx
+* Replace old filemanager for 351Files
+* Fix Amstrad GX4000
+
+
+
 # 4.3-TEST-07112021
 
 General: 
