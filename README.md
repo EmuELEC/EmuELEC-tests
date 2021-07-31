@@ -9,6 +9,13 @@ A new forum has been open for emuelec: https://emuelec.org
 
 ## CHANGELOG
 
+# 4.3-TEST-07312021
+
+* Fix create /storage/roms/amstradgx4000 on boot
+* Cleanup es_systems.cfg remove and add some extentions
+* Add Hurrican port (Handhelds currently have no working controls) 
+* Atomiswave: Remove workaround for nvmem
+
 # 4.3-TEST-07222021
 General:
 
