@@ -9,6 +9,25 @@ A new forum has been open for emuelec: https://emuelec.org
 
 ## CHANGELOG
 
+# 4.3-TEST-09062021
+
+* Fix Stadia Gamepad. Thanks to amuzulo#1322 
+* Fix issue with lzdoom loading .doom files and sound on mods
+* Update some sound packages
+* Fix es_systems.cfg: Add extensions to c64/c128 and Amiga (#677)
+* Add Cdogs-sdl to ports
+* Add Abuse to ports NOTE: WIP controls
+* Add Streets of Rage Remake
+* Fix Retroarch display of CJK characters
+* Fix SFC not scraping
+* Updated most emulators and cores
+* Create folders for fbneo consoles
+
+Amlogic-ng: 
+
+* Add RTL8761 Bluetooth Support (#698)
+* Include ssv6xxx-aml drivers
+
 # 4.3-TEST-07312021
 
 * Fix create /storage/roms/amstradgx4000 on boot
