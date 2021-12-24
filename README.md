@@ -8,6 +8,20 @@ For support: join us at discord: https://discord.gg/cbgtJTu
 A new forum has been open for emuelec: https://emuelec.org
 
 ## CHANGELOG
+ # 4.4-TEST-12242021
+
+This version will not appear as automatic update as it needs to be tested, if you want to test this version you need to manually update it using this method:
+
+* Download and copy the corresponding `.tar` file as is (do not uncompress it) to the update samba share (using Samba/network shares `//EMUELEC/Update` or by sftp/winscp `/storage/.update`). 
+* Press "Start" to open the main ES menu.
+* Navigate to "EmuELEC settings" -> "Danger Zone" -> "RESET EMUELEC SCRIPTS AND BINARIES TO DEFAULT" 
+* The device will reboot, wait for the update to finish. 
+
+Or better yet, do a clean install :) 
+
+Based on https://github.com/EmuELEC/EmuELEC/commit/6b11573caf3fd4efb910ad45025913530b7273cd
+
+
 
 # 4.3-TEST-09062021
 
