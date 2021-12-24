@@ -14,6 +14,7 @@ S905 GXBB for the moment is no longer supported. So if you have one of those (s9
 
 This version will not appear as automatic update as it needs to be tested, if you want to test this version you need to manually update it using this method:
 
+* Before you do anything make sure you have a backup of your settings
 * Download and copy the corresponding `.tar` file as is (do not uncompress it) to the update samba share (using Samba/network shares `//EMUELEC/Update` or by sftp/winscp `/storage/.update`). 
 * Press "Start" to open the main ES menu.
 * Navigate to "EmuELEC settings" -> "Danger Zone" -> "RESET EMUELEC SCRIPTS AND BINARIES TO DEFAULT" 
