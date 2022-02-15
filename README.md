@@ -8,6 +8,77 @@ For support: join us at discord: https://discord.gg/cbgtJTu
 A new forum has been open for emuelec: https://emuelec.org
 
 ## CHANGELOG
+# 4.4-TEST-02152022
+
+Based on commit: https://github.com/EmuELEC/EmuELEC/commit/50ea56f1b6cd435ad25c64fbd865765c2df6b59e
+
+This version will not appear as automatic update as it needs to be thoroughly tested, if you want to test this version you need to manually update it using this method:
+
+* Before you do anything make sure you have a backup of your settings or SD card
+* Download and copy the corresponding `.tar` file as is (do not uncompress it) to the update samba share (using Samba/network shares `//EMUELEC/Update` or by sftp/winscp `/storage/.update`) or by copying the file to the `.update` folder on the EEROMS partition. 
+* Press "Start" to open the main ES menu. (This can be done before or after updating)
+* Navigate to "EmuELEC settings" -> "Danger Zone" -> "RESET EMUELEC SCRIPTS AND BINARIES TO DEFAULT" 
+* The device will reboot, wait for the update to finish. 
+
+Please report any bugs/issues to https://github.com/EmuELEC/EmuELEC/issues
+
+Known Issues under investigation: 
+* Sometimes the splash screen does not quit, so a reboot is needed
+
+What needs testing:
+
+* General testing for all devices to make sure the new base is working correctly
+* Handheld devices, OGA, OGS and GameForce for general usage
+* Mupen64plus Standalone
+* Fbneo Standalone, in Arcade, Mame, NeoCD, fbneo, neogeo
+* Yabasanshiro Standalone
+* Bluetooth controllers in general as the BT backend was reworked
+* Autogamepad configuration for Dolphin, Flycast and ADVMAME
+
+Now for the change log
+
+General: 
+
+Huge update to base build system: 
+
+* All Amlogic devices now use the same kernel 4.9-19! 
+* You might notice a bit more performance on some emulators as well usage in general.
+* IMPORTANT: S905 (GXBB, p201) for the moment is no longer supported. If you have one of those devices (s905 no letter after the 5) DO NOT UPDATE, stay in 4.3.
+
+Fixed Bugs:
+
+* One of the most annoying bugs that plagued fbdev with Retroarch was also fixed (Issue #76) 
+  fixed in PR `mali_fbdev fix for fps drop after egl_destroy` (#789) by spleen1981!
+  This means that using retroarch as bootup option is now possible (some small changes need to be done).  
+* Fixed bluetooth connectivity issues
+* Fix zoom not working on manuals 
+* Fix many external mounting issues
+* Backup will now rename the file instead of deleting it after restore.
+* Fixed SuperTux and SuperTuxKart data download 
+* Fixed auto-update would show update available even if there was none. 
+
+Additions and other fixes: 
+
+* Added WIP Mupen64plus Standalone
+* Added fbneo Standalone
+* Added Duckstation Standalone
+* Added Yabasanshiro Standalone
+* Added Blake Stone to ports
+* Added iotop
+* Added VIM
+* Added External Mount settings in ES
+* Added option to create key remaps for Advance MAME
+* Switch to SDL 2.0.16 for all devices
+* Support for Pixelcade (Install script is in Setup)
+* Retroachievements encore is now configurable from ES
+* Added Enable Integer Overscaling in ES
+* Use toggle for fast forward instead of hold
+* Add .68k .68K .sgd .SGD to genesis/md
+* Added gamepad auto configuration for Dolphin and Flycast https://github.com/EmuELEC/EmuELEC/pull/812 (needs more testing)
+* Reworked Advance MAME gamepad auto configuration https://github.com/EmuELEC/EmuELEC/pull/812
+
+And many other changes! for the full list check out the commit history.
+
  # 4.4-TEST-12242021
 
 S905 GXBB for the moment is no longer supported. So if you have one of those (s905 no letter after the 5) DO NOT UPDATE, stay in 4.3. 
