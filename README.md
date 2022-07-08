@@ -8,6 +8,20 @@ For support: join us at discord: https://discord.gg/cbgtJTu
 A new forum has been open for emuelec: https://emuelec.org
 
 ## CHANGELOG
+# 4.6-TEST-07082022
+
+Based on commit: https://github.com/EmuELEC/EmuELEC/commit/2fa0f694480b04a0f574fffc967d1e2cfb2aa9ec
+
+Way too many changes to list here, please check the commit history: https://github.com/EmuELEC/EmuELEC/commits/dev
+
+As always before you do anything make sure you have a backup of your settings or SD card
+
+* New image available for older devices s905, s905x, s905(?) you can choose from `Amlogic-ng`  or `Amlogic-old` but this image is using a very old kernel and some emulators do not work including, duckstation, same_cdi, and probably others. This will hopefully fix issues that many older low end devices have with the `Amlogic-ng` image.
+
+* New devices supported, FireFly M2 (RK3566), FireFly P2 (RK3568) `EmuELEC-RK356x` and Hardkernel Odroid M1 (RK3568) `EmuELEC-OdroidM1` are now supported. 
+
+* Untested image `EmuELEC-Radxa_Zero2` 
+
 # 4.4-TEST-02152022
 
 Based on commit: https://github.com/EmuELEC/EmuELEC/commit/50ea56f1b6cd435ad25c64fbd865765c2df6b59e
